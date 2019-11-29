@@ -47,7 +47,7 @@ image_index = 4444
 #plt.imshow(x_test[image_index].reshape(28, 28),cmap='Greys')
 pred = model.predict(x_test[image_index].reshape(1, img_rows, img_cols, 1))
 
-print('Prediction for Input Image: ", x_test[image_index])
+print("Prediction for Input Image: ", x_test[image_index])
 print("Numpy Prediction Output for the Input Sample: ", pred)
 
 print(pred.argmax())
